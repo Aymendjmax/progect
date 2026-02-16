@@ -37,6 +37,7 @@ jobs:
           else
             npm install
           fi
+        run: npm ci
 
       - name: Build project
         run: npm run build
