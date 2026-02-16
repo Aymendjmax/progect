@@ -15,14 +15,15 @@ import {
 import { Button } from '@/components/ui/button';
 
 // بيانات الشرائح
+const slidesBaseUrl = `${import.meta.env.BASE_URL}slides`;
 const slides = [
-  { id: 1, image: '/slides/slide_1_1.png', title: 'صراع الأجيال: حتمية التغيير وضمان الاستمرارية' },
-  { id: 2, image: '/slides/slide_2_1.png', title: 'أسباب الصراع: التقنية والفجوة الرقمية' },
-  { id: 3, image: '/slides/slide_3_1.png', title: 'أسباب الصراع: القيم والتحولات الفكرية' },
-  { id: 4, image: '/slides/slide_4_1.png', title: 'أسباب الصراع: الاقتصاد والضغوط المعيشية' },
-  { id: 5, image: '/slides/slide_5_1.png', title: 'تأثير الصراع على المجتمع والمؤسسات' },
-  { id: 6, image: '/slides/slide_6_1.png', title: 'الحلول والتوصيات: من الصراع إلى التكامل' },
-  { id: 7, image: '/slides/slide_7_1.png', title: 'فريق العمل' },
+  { id: 1, image: `${slidesBaseUrl}/slide_1_1.png`, title: 'صراع الأجيال: حتمية التغيير وضمان الاستمرارية' },
+  { id: 2, image: `${slidesBaseUrl}/slide_2_1.png`, title: 'أسباب الصراع: التقنية والفجوة الرقمية' },
+  { id: 3, image: `${slidesBaseUrl}/slide_3_1.png`, title: 'أسباب الصراع: القيم والتحولات الفكرية' },
+  { id: 4, image: `${slidesBaseUrl}/slide_4_1.png`, title: 'أسباب الصراع: الاقتصاد والضغوط المعيشية' },
+  { id: 5, image: `${slidesBaseUrl}/slide_5_1.png`, title: 'تأثير الصراع على المجتمع والمؤسسات' },
+  { id: 6, image: `${slidesBaseUrl}/slide_6_1.png`, title: 'الحلول والتوصيات: من الصراع إلى التكامل' },
+  { id: 7, image: `${slidesBaseUrl}/slide_7_1.png`, title: 'فريق العمل' },
 ];
 
 // أقسام البحث
